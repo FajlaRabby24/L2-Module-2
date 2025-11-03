@@ -16,6 +16,7 @@ const lookupTable = postsArray.reduce((table, post) => {
   table[post.id] = post;
   return table;
 }, {});
+console.log(lookupTable);
 
 // ---------- worst idea ----------
 console.time("key");
