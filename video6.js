@@ -21,7 +21,8 @@ const lookupTable = postsArray.reduce((table, post) => {
 console.time("key");
 // const post = postsArray.find((post) => post.id === "p-104");
 // ------- best idea
-const post = lookupTable["p-108"];
+// const post = lookupTable.get("p-105");
+const post = lookupTable["p-105"];
 console.timeEnd("key");
 
 console.log(post);
